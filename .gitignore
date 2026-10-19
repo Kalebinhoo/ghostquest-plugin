@@ -1,5 +1,0 @@
-# backups do install.ps1
-*.bak
-
-.vercel
-.env*

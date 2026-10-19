@@ -85,12 +85,13 @@ Por tipo:
 ## Estrutura
 
 ```
+README.md        # este arquivo
+pluginbanner.png # banner do topo
+
 plugin/
   inject.js      # main process: injeta o renderer + relay loopback de conquistas
   renderer.js    # UI do painel + lógica das missões (client-side)
   version.json
-  README.md
-  pluginbanner.png
 ```
 
 Ícone e fonte (Quicksand) vão embutidos em base64 dentro do `inject.js` — o pacote de runtime é só `inject.js`, `renderer.js` e `version.json`. Os instaladores ficam em `site/`.
